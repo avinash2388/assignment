@@ -1,0 +1,1 @@
+geth --networkid 99  --port 3333 --mine --minerthreads 2 --datadir "./node1" --nodiscover --rpc --rpcport "7777" --rpccorsdomain "​http://mydomain.com" --rpcapi "personal,admin,txpool,db"  --"allow-insecure-unlock" --unlock 0 --password ./password.sec
